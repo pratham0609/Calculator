@@ -1,0 +1,6 @@
+2023-10-29 21:30:04.120 [main] INFO  org.example.Main - Calculator supporting root, factorial , log and power
+2023-10-29 21:30:20.061 [main] INFO  org.example.Main - Executing squareRoot function
+2023-10-29 22:18:02.904 [main] INFO  org.example.Main - Executing Factorial function
+2023-10-29 22:18:02.908 [main] INFO  org.example.Main - Executing natural Log function
+2023-10-29 22:18:02.909 [main] INFO  org.example.Main - Executing squareRoot function
+2023-10-29 22:18:02.909 [main] INFO  org.example.Main - Executing Power function
