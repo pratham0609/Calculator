@@ -4,3 +4,11 @@
 2023-10-29 22:18:02.908 [main] INFO  org.example.Main - Executing natural Log function
 2023-10-29 22:18:02.909 [main] INFO  org.example.Main - Executing squareRoot function
 2023-10-29 22:18:02.909 [main] INFO  org.example.Main - Executing Power function
+2023-11-07 00:25:52.790 [main] INFO  org.example.Main - Executing Factorial function
+2023-11-07 00:25:52.796 [main] INFO  org.example.Main - Executing natural Log function
+2023-11-07 00:25:52.797 [main] INFO  org.example.Main - Executing squareRoot function
+2023-11-07 00:25:52.797 [main] INFO  org.example.Main - Executing Power function
+2023-11-07 00:27:38.072 [main] INFO  org.example.Main - Executing Factorial function
+2023-11-07 00:27:38.078 [main] INFO  org.example.Main - Executing natural Log function
+2023-11-07 00:27:38.079 [main] INFO  org.example.Main - Executing squareRoot function
+2023-11-07 00:27:38.079 [main] INFO  org.example.Main - Executing Power function
