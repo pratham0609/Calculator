@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Configuration status="INFO">
+<!--    This is the root element of the Log4j configuration. -->
+<!--    It sets the overall logging configuration status to "INFO."-->
     <Appenders>
+<!--        defines different appenders, which determine where log messages are sent.-->
         <Console name="ConsoleAppender" target="SYSTEM_OUT">
+<!--            "ConsoleAppender" sends log messages to the system out-->
             <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+<!--   Pattern: includes the timestamp, thread ID, log level, logger name, and the log message itself.-->
         </Console>
         <File name="FileAppender" fileName="calculator_devops.log" immediateFlush="false" append="true">
             <PatternLayout pattern="%d{yyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
         </File>
+<!--        "FileAppender" that appends log messages to "calculator_devops.log."-->
     </Appenders>
     <Loggers>
         <Root level="debug">
+<!--            Configures the root logger to log messages at the "debug" level.-->
             <AppenderRef ref="FileAppender"/>
+<!--            Specifies that log messages from the root logger should be sent to the "FileAppender."-->
         </Root>
     </Loggers>
 </Configuration>
