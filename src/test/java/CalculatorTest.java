@@ -6,7 +6,7 @@ public class CalculatorTest {
     private Main calc;
     @Before
     public void setUp() {
-        calc = new Main();
+        calc = new Main() ;
     }
     @Test
     public void test_squareRoot() {
